@@ -80,3 +80,21 @@ li.list-group-item.active > a {
 .second-half-row {
   grid-column: 4 / span 3;
 }
+
+.main-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr;
+  grid-gap: 5px; 
+  padding: 15px;
+}
+
+.main-menu {
+  grid-column: 1;
+  grid-row: 1 / span 3;
+}
+
+.main-display {
+  grid-column: 2 / span 4;
+  grid-row: 2
+}
